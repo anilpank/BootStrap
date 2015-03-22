@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name"viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Basic bootstrap page for responsive fixed width container. -->
+	<div class="container">
+		<h1>My first bootstrap page.</h1>
+		<p>This is some text.</p>
+
+		<!-- Three equal columns -->
+		<div class="row">
+			<div class="col-sm-4" style="background-color: red">.col-sm-4</div>
+			<div class="col-sm-4" style="background-color: green">.col-sm-4</div>
+			<div class="col-sm-4" style="background-color: blue">.col-sm-4</div>
+		</div>
+
+		<!-- Two unequal columns -->
+		<div class="row" style="margin-top: 50px;">
+			<div class="col-sm-4" style="background-color: red">.col-sm-4</div>
+			<div class="col-sm-8" style="background-color: green">.col-sm-8</div>
+		</div>
+
+		<!-- Various bootstrap headlines -->
+		<h1>h1 Bootstrap heading (36px)</h1>
+		<h2>h2 Bootstrap heading (30px)</h2>
+		<h3>h3 Bootstrap heading (24px)</h3>
+		<h4>h4 Bootstrap heading (18px)</h4>
+		<h5>h5 Bootstrap heading (14px)</h5>
+		<h6>h6 Bootstrap heading (12px)</h6>
+
+		<!-- Bootstrap lighter secondary text -->
+		<h1>Lighter, Secondary Text</h1>
+		<p>The small element is used to create a lighter, secondary text
+			in any heading:</p>
+		<h1>
+			h1 heading <small>secondary text</small>
+		</h1>
+		<h2>
+			h2 heading <small>secondary text</small>
+		</h2>
+		<h3>
+			h3 heading <small>secondary text</small>
+		</h3>
+		<h4>
+			h4 heading <small>secondary text</small>
+		</h4>
+		<h5>
+			h5 heading <small>secondary text</small>
+		</h5>
+		<h6>
+			h6 heading <small>secondary text</small>
+		</h6>
+
+		<!-- Use the mark  -->
+		<h1>Highlight Text</h1>
+		<p>
+			Use the mark element to
+			<mark>highlight</mark>
+			text.
+		</p>
+
+		<!-- Bootstrap basic table -->
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+				</tr>
+				<tr>
+					<td>Mary</td>
+					<td>Moe</td>
+					<td>mary@example.com</td>
+				</tr>
+				<tr>
+					<td>July</td>
+					<td>Dooley</td>
+					<td>july@example.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- Bootstrap glyphocons -->
+		<p>
+			Envelope icon: <span class="glyphicon glyphicon-envelope"></span>
+		</p>
+		<p>
+			Envelope icon as a link: <a href="#"><span
+				class="glyphicon glyphicon-envelope"></span></a>
+		</p>
+		<p>
+			Search icon: <span class="glyphicon glyphicon-search"></span>
+		</p>
+		<p>
+			Search icon on a button:
+			<button type="button" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span> Search
+			</button>
+		</p>
+		<p>
+			Search icon on a styled button:
+			<button type="button" class="btn btn-info">
+				<span class="glyphicon glyphicon-search"></span> Search
+			</button>
+		</p>
+		<p>
+			Print icon: <span class="glyphicon glyphicon-print"></span>
+		</p>
+		<p>
+			Print icon on a styled link button: <a href="#"
+				class="btn btn-success btn-lg"> <span
+				class="glyphicon glyphicon-print"></span> Print
+			</a>
+		</p>
+
+		<!-- Badges -->
+		<a href="#">News <span class="badge">5</span></a><br> <a href="#">Comments
+			<span class="badge">10</span>
+		</a><br> <a href="#">Updates <span class="badge">2</span></a>
+		<button type="button" class="btn btn-primary">
+			Primary <span class="badge">7</span>
+		</button>
+
+		<!-- ProgressBar -->
+		<h2>Basic Progress Bar</h2>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-valuenow="70"
+				aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
+				complete</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-success" role="progressbar"
+				aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+				style="width: 40%">40% Complete (success)</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-info" role="progressbar"
+				aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+				style="width: 50%">50% Complete (info)</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning" role="progressbar"
+				aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+				style="width: 60%">60% Complete (warning)</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger" role="progressbar"
+				aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+				style="width: 70%">70% Complete (danger)</div>
+		</div>
+
+		<!-- Striped progress bars -->
+		<div class="progress">
+			<div class="progress-bar progress-bar-success progress-bar-striped"
+				role="progressbar" aria-valuenow="40" aria-valuemin="0"
+				aria-valuemax="100" style="width: 40%">40% Complete (success)
+			</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-info progress-bar-striped"
+				role="progressbar" aria-valuenow="50" aria-valuemin="0"
+				aria-valuemax="100" style="width: 50%">50% Complete (info)</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning progress-bar-striped"
+				role="progressbar" aria-valuenow="60" aria-valuemin="0"
+				aria-valuemax="100" style="width: 60%">60% Complete (warning)
+			</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger progress-bar-striped"
+				role="progressbar" aria-valuenow="70" aria-valuemin="0"
+				aria-valuemax="100" style="width: 70%">70% Complete (danger)</div>
+		</div>
+
+		<!-- Animated progress bar -->
+		<div class="progress">
+			<div class="progress-bar progress-bar-striped active"
+				role="progressbar" aria-valuenow="40" aria-valuemin="0"
+				aria-valuemax="100" style="width: 40%">40%</div>
+		</div>
+
+		<!-- Basic List Group -->
+		<h2>Basic List Group</h2>
+		<ul class="list-group">
+			<li class="list-group-item">First item</li>
+			<li class="list-group-item">Second item</li>
+			<li class="list-group-item">Third item</li>
+		</ul>
+
+		<!-- List Group with badges -->
+		<ul class="list-group">
+			<li class="list-group-item"><span class="badge">12</span> New</li>
+			<li class="list-group-item"><span class="badge">5</span> Deleted</li>
+			<li class="list-group-item"><span class="badge">3</span>
+				Warnings</li>
+		</ul>
+
+      <!-- List Group with custom contents -->
+		<h2>List Group With Custom Content</h2>
+		<div class="list-group">
+			<a href="#" class="list-group-item active">
+				<h4 class="list-group-item-heading">First List Group Item
+					Heading</h4>
+				<p class="list-group-item-text">List Group Item Text</p>
+			</a> <a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Second List Group Item
+					Heading</h4>
+				<p class="list-group-item-text">List Group Item Text</p>
+			</a> <a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Third List Group Item
+					Heading</h4>
+				<p class="list-group-item-text">List Group Item Text</p>
+			</a>
+		</div>
+
+	</div>
+
+
+
+
+
+</body>
+</html>
