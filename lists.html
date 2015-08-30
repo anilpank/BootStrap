@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name"viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+ .bs-example{
+    	margin: 20px;
+    }
+    
+  .bs-example .list-group{
+		width: 200px;
+	}
+</style>
+</head>
+
+<body>
+<div class="container">
+<!-- Unstyled Ordered and Unordered Lists -->
+<!-- The .list-unstyled class removes the default list-style and left padding only from the list items which are immediate children of the <ul> or <ol> element. -->
+<div class="bs-example">
+	<h2>Unstyled Unordered List</h2>
+    <ul class="list-unstyled">
+        <li>Home</li>
+        <li>Products
+            <ul>
+                <li>Gadgets</li>
+                <li>Accessories</li>
+            </ul>
+        </li>
+        <li>About Us</li>
+        <li>Contact</li>
+    </ul>
+    <hr>
+    <h2>Unstyled Ordered List</h2>
+    <ol class="list-unstyled">
+        <li>Home</li>
+        <li>Products
+            <ol>
+                <li>Gadgets</li>
+                <li>Accessories</li>
+            </ol>
+        </li>
+        <li>About Us</li>
+        <li>Contact</li>
+    </ol>
+</div>
+
+<!-- Placing Ordered and Unordered List Items Inline -->
+<div class="bs-example">
+	<h2>Inline Unordered List</h2>
+    <ul class="list-inline">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Products</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+</div>
+
+<!--  Creating Horizontal Definition Lists -->
+<div class="bs-example">
+	<h2>Horizontal Definition Lists</h2>
+    <dl class="dl-horizontal">
+        <dt>User Agent</dt>
+        <dd>An HTML user agent is any device that interprets HTML documents.</dd>
+        <dt>Client-side Scripting</dt>
+        <dd>Client-side scripting generally refers to the category of computer programs on the web that are executed client-side i.e. by the user's web browser.</dd>
+        <dt>Document Tree</dt>
+        <dd>The tree of elements encoded in the source document.</dd>
+    </dl>
+</div>
+
+<!-- Bootstrap List Groups -->
+<div class="bs-example">
+    <ul class="list-group">
+        <li class="list-group-item">Pictures</li>
+        <li class="list-group-item">Documents</li>        
+        <li class="list-group-item">Music</li>
+        <li class="list-group-item">Videos</li>
+    </ul>
+</div>
+
+
+<!-- Bootstrap list groups linkable -->
+<div class="bs-example">
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            <span class="glyphicon glyphicon-camera"></span> Pictures <span class="badge">25</span>
+        </a>
+        <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-file"></span> Documents <span class="badge">145</span>
+        </a>
+        <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-music"></span> Music <span class="badge">50</span>
+        </a>
+        <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-film"></span> Videos <span class="badge">8</span>
+        </a>
+    </div>
+</div>
+
+<!-- add other HTML elements like headings and paragraph within these list groups -->
+<div class="bs-example2">
+    <div class="list-group">
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">What is HTML?</h4>
+            <p class="list-group-item-text">HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages.</p>
+        </a>
+        <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">What is Bootstrap?</h4>
+            <p class="list-group-item-text">Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of HTML and CSS based design template.</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">What is CSS?</h4>
+            <p class="list-group-item-text">CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.</p>
+        </a>
+    </div>
+</div>
+
+<!-- List Groups with Contextual States -->
+<div class="bs-example2">
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">200 OK: The server successfully processed the request.</li>
+        <li class="list-group-item list-group-item-info">100 Continue: The client should continue with its request.</li>
+        <li class="list-group-item list-group-item-warning">503 Service Unavailable: The server is temporarily unable to handle the request.</li>
+        <li class="list-group-item list-group-item-danger">400 Bad Request: The request cannot be fulfilled due to bad syntax.</li>
+    </ul>
+</div>
+
+</div>
+</body>
