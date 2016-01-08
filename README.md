@@ -16,3 +16,6 @@ Bootstrap reference
 * Remember to add padding (at least 70px) to the top or bottom of the <body> element to avoid the content to go underneath the navbar while implementing fixed top or bottom navbar. Also be sure to add your custom style sheet after the core Bootstrap CSS file, otherwise it may not work
 
 * Place the fixed .navbar content inside the .container or .container-fluid for proper padding and alignment with the rest of the content.
+
+# [Bespoke Solutions](http://www.ojblabs.com)
+Brought to you by [OjbLabs](http://www.ojblabs.com)
